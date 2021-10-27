@@ -36,9 +36,13 @@ export class EditUserComponent implements OnInit {
     this.userService.getUserDoc(id).subscribe(res => {
       this.userRef = res;
       this.editForm = this.formBuilder.group({
-        name: [this.userRef.name],
-        email: [this.userRef.email],
-        contact: [this.userRef.contact]
+        Nama    : [this.userRef.Nama],
+        NPM     : [this.userRef.NPM],
+        Matrix  : [this.userRef.Matrix],
+        Jurusan : [this.userRef.Jurusan],
+        Email   : [this.userRef.Email],
+        Kontak  : [this.userRef.Kontak],
+        Alamat  : [this.userRef.Alamat]
       })      
     })
   }

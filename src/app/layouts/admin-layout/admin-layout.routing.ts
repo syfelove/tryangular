@@ -1,9 +1,5 @@
 import { Routes } from '@angular/router';
 
-import { CreateUserComponent } from '../../components/create-user/create-user.component';
-import { ListUserComponent } from '../../components/list-user/list-user.component';
-import { EditUserComponent } from '../../components/edit-user/edit-user.component';
-
 import { DashboardComponent } from '../../dashboard/dashboard.component';
 import { UserProfileComponent } from '../../user-profile/user-profile.component';
 import { TableListComponent } from '../../table-list/table-list.component';
@@ -12,6 +8,9 @@ import { IconsComponent } from '../../icons/icons.component';
 import { MapsComponent } from '../../maps/maps.component';
 import { NotificationsComponent } from '../../notifications/notifications.component';
 import { UpgradeComponent } from '../../upgrade/upgrade.component';
+import { CreateUserComponent } from '../../components/create-user/create-user.component';
+import { ListUserComponent } from '../../components/list-user/list-user.component';
+import { EditUserComponent } from '../../components/edit-user/edit-user.component';
 
 export const AdminLayoutRoutes: Routes = [
     // {

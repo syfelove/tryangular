@@ -31,7 +31,7 @@ export class CreateUserComponent implements OnInit {
   }
   onSubmit() {
     this.userService.createUser(this.userForm.value);
-    this.router.navigate(['icons']); 
+    this.router.navigate(['list-users']); 
    };
 }
 
